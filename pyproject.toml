@@ -1,0 +1,29 @@
+[project]
+name = "demo-package"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Seb Hilgers", email = "sebhi@mailbox.org" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ezdxf>=1.4.3",
+    "ifcopenshell>=0.8.4.post1",
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.6",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "pyvista>=0.47.1",
+    "shapely>=2.1.2",
+]
+
+[project.scripts]
+demo-package = "demo_package:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
