@@ -1,5 +1,5 @@
 [project]
-name = "demo-package"
+name = "demo_package_sebh"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -23,6 +23,12 @@ dependencies = [
 
 [project.scripts]
 demo-package = "demo_package:main"
+
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/sebhilgers/demo_package"
 
 [build-system]
 requires = ["hatchling"]
